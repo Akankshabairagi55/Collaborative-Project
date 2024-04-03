@@ -1,0 +1,45 @@
+* {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  #main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .sub {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .imz {
+    height: 305px;
+    width: 305px;
+    background-color: #e5e7eb;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 7px;
+  }
+
+  .name {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .role {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(84, 77, 79);
+    letter-spacing: 0.5px;
+  }
+
+  .com-name {
+    width: 140px;
+    display: block;
+    margin: auto;
+  }
